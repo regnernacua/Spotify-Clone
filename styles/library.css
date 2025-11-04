@@ -1,25 +1,25 @@
 .library-container {
-  display: grid;
-  grid-template-columns: 420px 2fr;
+  display: flex;
   background-color: rgb(21, 21, 21);
   border-radius: 10px;
   width: 420px;
+  padding-left: 10px;
 }
 
 .library-section {
   height: 680px;
+  width: 420px;
 }
 
 .library-preview {
-  display: grid;
-  grid-template-columns: 400px 1fr;
+  display: flex;;
 }
 
 .user-library {
   font-size: 14px;
   font-weight: bold;
-  padding-top: 18px;
-  padding-left: 18px;
+  padding-top: 28px;
+  padding-left: 8px;
   padding-bottom: 18px;
 }
 
@@ -30,7 +30,6 @@
   padding-bottom: 16px;
   margin-top: 36px;
   margin-bottom: 22px;
-  margin-left: 8px;
   margin-right: 8px;
   border-radius: 10px;
 }
@@ -61,7 +60,6 @@
   padding-left: 18px;
   padding-bottom: 16px;
   margin-bottom: 18px;
-  margin-left: 8px;
   margin-right: 8px;
   border-radius: 10px;
 }

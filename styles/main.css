@@ -1,13 +1,20 @@
+.app {
+  display: flex;
+}
+
 .main-container {
   display: flex;
+  flex-direction: column;
   flex: 1;
   background: linear-gradient(to bottom, #252525, #000000);
   border-radius: 10px;
   margin-left: 10px;
   padding-left: 40px;
+  column-gap: 16px;
+  row-gap: 40px;
 }
 
-.main-section {
+.trending-section {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -23,17 +30,14 @@
 
 .preview-grid {
   display: flex;
+  flex-direction: row;
+  gap: 24px;
 }
 
-.main-preview {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
+
 
 .song-cover {
-  display: flex;
-  flex: 1;
+  position: relative;
 }
 
 
@@ -44,7 +48,7 @@
 
 .song-info-grid {
   display: flex;
-  flex: 1;
+  flex: 170px;
 }
 
 
@@ -55,6 +59,42 @@
 }
 
 .song-artist {
+  font-size: 13px;
+  color: rgb(198, 194, 194);
+  font-weight: 500;
+  padding-top: 8px;
+}
+
+.trending-artist-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.artist-cover {
+  display: flex;
+  flex: 1;
+}
+
+.artist-profile {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 85px;
+}
+
+.artist-info-grid {
+  display: flex;
+  flex: 1;
+}
+
+.artist-name {
+  font-size: 15px;
+  font-weight: 500;
+  padding-top: 8px;
+}
+
+.artist-description {
   font-size: 13px;
   color: rgb(198, 194, 194);
   font-weight: 500;
