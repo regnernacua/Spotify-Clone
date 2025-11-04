@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   flex: 1;
-  background: linear-gradient(to bottom, #252525, #000000);
+  background: linear-gradient(to bottom, #191919, #151515);
   border-radius: 10px;
   margin-left: 10px;
   padding-left: 40px;
@@ -23,7 +23,7 @@
 .main-header {
   padding-top: 30px;
   padding-bottom: 22px;
-  font-size: 21px;
+  font-size: 22px;
   font-weight: bold;
   color: white;
 }
@@ -34,31 +34,33 @@
   gap: 24px;
 }
 
-
-
 .song-cover {
   position: relative;
 }
 
 
-.single-cover {
+.single-cover,
+.album-cover {
   width: 170px;
   border-radius: 6px;
 }
 
-.song-info-grid {
+.song-info-grid,
+.album-info-grid {
   display: flex;
   flex: 170px;
 }
 
 
-.song-title {
+.song-title,
+.album-title {
   font-size: 15px;
   font-weight: 500;
   padding-top: 8px;
 }
 
-.song-artist {
+.song-artist,
+.album-artist {
   font-size: 13px;
   color: rgb(198, 194, 194);
   font-weight: 500;

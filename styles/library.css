@@ -24,7 +24,7 @@
 }
 
 .playlist {
-  background-color: rgb(37, 37, 37);
+  background-color: rgb(30, 30, 30);
   padding-top: 16px;
   padding-left: 18px;
   padding-bottom: 16px;
@@ -55,7 +55,7 @@
 }
 
 .podcast {
-  background-color: rgb(37, 37, 37);
+  background-color: rgb(30, 30, 30);
   padding-top: 16px;
   padding-left: 18px;
   padding-bottom: 16px;
@@ -83,3 +83,34 @@
   border-radius: 50px;
   font-weight: bold;
 }
+
+.library-footer,
+.library-cookies {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.library-footer {
+  margin-top: 40px;
+  padding-bottom: 0;
+}
+
+.library-footer-info {
+  font-size: 10px;
+  color: rgb(198, 194, 194);
+}
+
+.library-cookies {
+  padding-top: 18px;
+  margin-top: 0;
+}
+
+.library-footer-cookies {
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+}
+

@@ -11,6 +11,7 @@
   border: none;
   background-color: black;
   font-family: Montserrat;
+  z-index: 100;
 }
 
 .left-section {
