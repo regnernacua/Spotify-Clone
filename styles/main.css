@@ -1,0 +1,49 @@
+.main-container {
+  display: grid;
+  grid-template-columns: 800px;
+  flex: 1;
+  background: linear-gradient(to bottom, #252525, #000000);
+  margin-left: 8px;
+  border-radius: 10px;
+  width: 420px;
+  
+}
+
+.library-preview {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+}
+
+
+
+.main-header {
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 18px;
+  padding-left: 18px;
+  padding-bottom: 18px;
+}
+
+.song-preview {
+  display: grid;
+  height: 100px;
+}
+
+.single-cover {
+  width: 180px;
+  border-radius: 5px;
+  margin-bottom: 10px; 
+
+}
+
+.song-title {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.song-artist {
+  font-size: 13px;
+  font-weight: 500;
+  color: rgb(198, 194, 194);
+}

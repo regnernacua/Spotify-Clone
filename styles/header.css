@@ -1,0 +1,151 @@
+.header {
+  font-family: Monterrat, Arial;
+  height: 62px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border: none;
+  background-color: black;
+  font-family: Montserrat;
+}
+
+.left-section {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  max-width: 620px;
+}
+
+.spotify-logo {
+  height: 32px;
+  margin-left: 24px;
+  margin-right: 34px;
+}
+
+.home-button {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 45px;
+  border-radius: 50px;
+  background-color: rgb(37, 36, 36);
+}
+
+.home-icon {
+  height: 20px;
+}
+
+.search-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  flex: 1;
+}
+
+.search-bar {
+  flex: 1;
+  height: 46px;
+  margin-left: 10px;
+  background-color: rgb(37, 36, 36);
+  border: none;
+  border-radius: 50px;
+  padding-left: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+
+.search-bar::placeholder {
+  color: rgb(198, 194, 194);
+}
+
+.search-icon {
+  position: absolute;
+  height: 22px;
+  left: 24px;
+
+}
+
+.search-line {
+  color: white;
+  position: absolute;
+  font-size: 28px;
+  font-weight: 10;
+  right: 50px;
+}
+
+.browse-icon {
+  position: absolute;
+  height: 22px;
+  right: 18px;
+}
+
+.middle-section {
+  display: flex;
+  flex: 1;
+  max-width: 10px;
+  align-items: center;
+  width: 0;
+}
+
+.header-options {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(198, 194, 194);
+  margin-left: 10px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-line {
+  color: white;
+  margin-left: 10px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding-left: 24px;
+  font-size: 28px;
+}
+
+
+.right-section {
+  margin-right: 20px;
+  width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.install-option, 
+.signup-option {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(198, 194, 194);
+  margin-left: 10px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-button {
+  height: 46px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 50px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+}

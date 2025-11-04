@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  font-family: Montserrat, Arial;
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}

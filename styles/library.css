@@ -1,0 +1,87 @@
+.library-container {
+  display: grid;
+  grid-template-columns: 420px 2fr;
+  background-color: rgb(21, 21, 21);
+  border-radius: 10px;
+  width: 420px;
+}
+
+.library-section {
+  height: 680px;
+}
+
+.library-preview {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+}
+
+.user-library {
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 18px;
+  padding-left: 18px;
+  padding-bottom: 18px;
+}
+
+.playlist {
+  background-color: rgb(37, 37, 37);
+  padding-top: 16px;
+  padding-left: 18px;
+  padding-bottom: 16px;
+  margin-top: 36px;
+  margin-bottom: 22px;
+  margin-left: 8px;
+  margin-right: 8px;
+  border-radius: 10px;
+}
+
+.playlist-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.playlist-subtitle {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.create-button {
+  height: 36px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.podcast {
+  background-color: rgb(37, 37, 37);
+  padding-top: 16px;
+  padding-left: 18px;
+  padding-bottom: 16px;
+  margin-bottom: 18px;
+  margin-left: 8px;
+  margin-right: 8px;
+  border-radius: 10px;
+}
+
+.podcast-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.podcast-subtitle {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.browse-button {
+  height: 36px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 50px;
+  font-weight: bold;
+}
