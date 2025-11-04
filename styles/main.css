@@ -1,49 +1,62 @@
 .main-container {
-  display: grid;
-  grid-template-columns: 800px;
+  display: flex;
   flex: 1;
   background: linear-gradient(to bottom, #252525, #000000);
-  margin-left: 8px;
   border-radius: 10px;
-  width: 420px;
-  
+  margin-left: 10px;
+  padding-left: 40px;
 }
 
-.library-preview {
-  display: grid;
-  grid-template-columns: 400px 1fr;
+.main-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
-
-
 
 .main-header {
-  font-size: 14px;
+  padding-top: 30px;
+  padding-bottom: 22px;
+  font-size: 21px;
   font-weight: bold;
-  padding-top: 18px;
-  padding-left: 18px;
-  padding-bottom: 18px;
+  color: white;
 }
 
-.song-preview {
-  display: grid;
-  height: 100px;
+.preview-grid {
+  display: flex;
 }
+
+.main-preview {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.song-cover {
+  display: flex;
+  flex: 1;
+}
+
 
 .single-cover {
-  width: 180px;
-  border-radius: 5px;
-  margin-bottom: 10px; 
-
+  width: 170px;
+  border-radius: 6px;
 }
 
+.song-info-grid {
+  display: flex;
+  flex: 1;
+}
+
+
 .song-title {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
-  margin-bottom: 10px;
+  padding-top: 8px;
 }
 
 .song-artist {
   font-size: 13px;
-  font-weight: 500;
   color: rgb(198, 194, 194);
+  font-weight: 500;
+  padding-top: 8px;
 }
