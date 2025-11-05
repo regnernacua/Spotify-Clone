@@ -26,6 +26,7 @@
   height: 32px;
   margin-left: 24px;
   margin-right: 34px;
+  cursor: pointer;
 }
 
 .home-button {
@@ -37,10 +38,40 @@
   width: 45px;
   border-radius: 50px;
   background-color: rgb(37, 36, 36);
+  cursor: pointer;
+
 }
 
 .home-icon {
   height: 20px;
+}
+
+.home-icon-container {
+  position: relative;
+}
+
+
+
+.home-icon-container .tooltip {
+  position: absolute;
+  background-color: rgb(40, 40, 40);
+  color: white;
+  font-weight: bold;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.home-icon-container:hover .tooltip {
+  opacity: 1;
 }
 
 .search-wrapper {
@@ -107,6 +138,7 @@
   position: relative;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .middle-line {
@@ -140,6 +172,7 @@
   position: relative;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .login-button {
@@ -150,4 +183,6 @@
   border: none;
   font-size: 15px;
   font-weight: bold;
+  cursor: pointer;
 }
+

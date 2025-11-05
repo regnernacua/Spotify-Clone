@@ -46,12 +46,15 @@
   margin-bottom: 24px;
 }
 
-.create-button {
+.create-button,
+.browse-button {
   height: 36px;
   padding-left: 18px;
   padding-right: 18px;
   border-radius: 50px;
   font-weight: bold;
+  border: none;
+  cursor: pointer;
 }
 
 .podcast {
@@ -74,14 +77,6 @@
   font-size: 12px;
   font-weight: 500;
   margin-bottom: 24px;
-}
-
-.browse-button {
-  height: 36px;
-  padding-left: 18px;
-  padding-right: 18px;
-  border-radius: 50px;
-  font-weight: bold;
 }
 
 .library-footer,
