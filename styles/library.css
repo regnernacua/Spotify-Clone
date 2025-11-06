@@ -109,3 +109,27 @@
   color: white;
 }
 
+.library-language {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.language-button {
+  background-color: black;
+  padding: 6px 20px 6px 35px;
+  border-radius: 50px;
+  border-color: white;
+  border-width: 1px;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+}
+
+.language-icon {
+  position: absolute;
+  height: 20px;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+}

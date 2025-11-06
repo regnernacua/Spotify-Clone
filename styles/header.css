@@ -12,13 +12,14 @@
   background-color: black;
   font-family: Montserrat;
   z-index: 100;
+  box-sizing: border-box;
 }
 
 .left-section {
   display: flex;
-  flex: 1;
   align-items: center;
-  max-width: 620px;
+  flex: 1;
+  min-width: 0;
   flex-shrink: 1;
 }
 
@@ -65,7 +66,7 @@
   font-size: 12px;
   bottom: -30px;
   opacity: 0;
-  transition: opacity 0.15s;
+  transition: opacity 0.5s;
   pointer-events: none;
   white-space: nowrap;
 }
@@ -75,24 +76,25 @@
 }
 
 .search-wrapper {
+  display: flex;
   position: relative;
-  display: inline-flex;
   align-items: center;
   flex: 1;
+  max-width: 500px;
 }
 
 .search-bar {
   flex: 1;
   height: 46px;
-  margin-left: 10px;
   background-color: rgb(37, 36, 36);
   border: none;
   border-radius: 50px;
-  padding-left: 50px;
+  padding: 0 50px;
+  margin-left: 10px;
   font-size: 16px;
   font-weight: 500;
   color: rgb(255, 255, 255);
-  width: 0;
+  min-width: 0;
 }
 
 .search-bar::placeholder {
@@ -123,10 +125,37 @@
 
 .middle-section {
   display: flex;
-  flex: 1;
-  max-width: 10px;
   align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
 }
+
+@media (max-width: 1000px) {
+  .middle-section {
+    display: none;
+  }
+
+  .search-wrapper {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 700px) {
+  .search-bar,
+  .search-line,
+  .browse-icon {
+    display: none;
+  }
+}
+
+
+
+@media (max-width: 700px) {
+  .right-section {
+    display: none !important;
+  }
+}
+
 
 .header-options {
   font-family: Arial;
@@ -134,31 +163,22 @@
   font-weight: bold;
   color: rgb(198, 194, 194);
   margin-left: 10px;
-  display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
   cursor: pointer;
 }
 
 .middle-line {
   color: white;
   margin-left: 10px;
-  display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
   padding-left: 24px;
   font-size: 28px;
 }
 
 
 .right-section {
-  margin-right: 20px;
-  width: 280px;
   display: flex;
+  gap: 20px;
   align-items: center;
-  justify-content: space-between;
+  flex-shrink: 0;
 }
 
 .install-option, 
